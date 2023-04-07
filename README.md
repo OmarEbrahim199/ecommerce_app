@@ -1,6 +1,6 @@
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Full stack eCommerce React 'Next.js' application with Stripe and using Sanity as a backend
+## Full stack eCommerce React 'Next.js' application with Stripe and using Sanity as a backend and flexible content management system for digital projects
 A modern full stack eCommerce React 'Next.js' application with Stripe and using Sanity as a backend is a web application that allows users to browse products, add them to their cart, and checkout using Stripe for payment processing. The application is built using a modern stack of technologies, including Next.js for the frontend, Sanity as a headless CMS for the backend, and Stripe for payment processing.
 
 Next.js is a popular framework for building server-rendered React applications. It provides features like server-side rendering, static site generation, and automatic code splitting, which can help improve the performance and user experience of a web application. The application will have a clean and modern design, with a responsive layout that works on desktop and mobile devices. Users will be able to browse products, view product details, add products to their cart, and checkout.
