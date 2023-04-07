@@ -8,6 +8,7 @@ import { useStateContext } from '../context/StateContext';
 import { urlFor } from '../lib/client';
 import getStripe from '../lib/getStripe';
 
+
 const Cart = () => {
   const cartRef = useRef();
   const { totalPrice, totalQuantities, cartItems, setShowCart, toggleCartItemQuanitity, onRemove } = useStateContext();
@@ -24,8 +25,15 @@ const Cart = () => {
     });
 
     if(response.statusCode === 500) return;
+
+    console.log('====================================');
+    console.log(response.status );
+    console.log('====================================');
     
     const data = await response.json();
+    console.log('====================================');
+    console.log(data );
+    console.log(data.id + '====================================');
 
     toast.loading('Redirecting...');
 
@@ -99,7 +107,7 @@ const Cart = () => {
             </div>
             <div className="btn-container">
               <button type="button" className="btn" onClick={handleCheckout}>
-                Pay with Stripe
+                Pay 
               </button>
             </div>
           </div>
