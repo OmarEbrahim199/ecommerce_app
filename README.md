@@ -11,7 +11,7 @@ Stripe is a popular payment processing service that allows businesses to accept 
 
 To build the application, you will need to use a combination of frontend and backend technologies, including Next.js, Sanity, Stripe, and GraphQL. You will need to set up a development environment, create a database schema for storing product and user data, and integrate Stripe for payment processing. You will also need to implement user authentication and authorization to ensure that only authorized users can access certain parts of the application.
 
-Overall, a modern full stack eCommerce React 'Next.js' application with Stripe and using Sanity as a backend is a complex application that requires a good understanding of frontend and backend development, as well as experience working with payment processing services like Stripe and headless CMS like Sanity. However, with the right tools and expertise, it's possible to create a high-quality eCommerce application that provides users with a seamless and secure online shopping experience.
+Overall, a modern full stack eCommerce React 'Next.js' application with Stripe and using Sanity as a backend is a complex application that requires a good understanding of frontend and backend development, as well as experience working with payment processing services like Stripe and headless CMS like Sanity. However, with the right tools and expertise, it's possible to create a high-quality eCommerce application that provides users with a seamless and secure online shopping experience...
 
 
 
